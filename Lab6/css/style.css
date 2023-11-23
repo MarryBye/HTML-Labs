@@ -1,0 +1,120 @@
+body {
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(16, 16, 16);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 300px;
+    height: 100px;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    animation-name: anim4;
+    animation-duration: .2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    box-shadow: 0px 0px 10px 5px rgb(248, 249, 249);
+}
+
+.anim1a {
+    width: 60px;
+    height: 20px;
+    background-color: rgb(143, 143, 143);
+    border-radius: 5px;
+}
+
+.anim1a .anim1 {
+    background-color: rgb(13, 237, 47);
+    width: 20px;
+    height: 20px;
+    animation-name: anim1;
+    border-radius: 5px;
+    animation-duration: 2.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+
+.anim2c {
+    background-color: rgb(0, 0, 0);
+    width: 8px;
+    height: 8px;
+    border-radius: 5px;
+}
+
+
+.anim2 {
+    background-color: rgb(242, 53, 11);
+    width: 50px;
+    height: 8px;
+    animation-name: anim2;
+    border-radius: 1px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.anim3 img {
+    width: 32px;
+    height: 32px;
+    animation: anim3;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-duration: .3s;
+}
+
+
+@keyframes anim1 {
+    from {
+        width: 1px;
+    }
+
+    to {
+        width: 60px;
+    }
+}
+
+@keyframes anim2 {
+    from {
+        transform: rotate(0deg);
+        width: 0px;
+    }
+
+    to {
+        transform: rotate(360deg);
+        width: 80px;
+    }
+}
+
+@keyframes anim3 {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.5);
+    }
+}
+
+@keyframes anim4 {
+    from {
+        box-shadow: 0px 0px 10px 1px rgb(248, 249, 249);
+    }
+
+    to {
+        box-shadow: 0px 0px 10px 5px rgb(248, 249, 249);
+    }
+}

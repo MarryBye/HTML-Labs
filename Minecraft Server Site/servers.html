@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/ss_servers.css">
+    <link rel="stylesheet" href="css/ss_fonts.css">
+    <link rel="stylesheet" href="css/ss_global.css">
+    <link rel="stylesheet" href="css/ss_chat.css">
+    <link rel="stylesheet" href="css/ss_sms.css">
+    <title>GAMERS | Сервера</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="header_img"></div>
+        <div class="header_logo">
+            <span class="logo_title">Minecraft сервер GAMERS</span>
+            <span class="logo_desc">Найкращі відчуття тільки для друзів!</span>
+        </div>
+    </header>
+
+    <nav>
+
+        <div class="nav_buttons">
+            <a href="index.html">
+                <button class="nav_button">Головна</button>
+            </a>
+            <a href="news.html">
+                <button class="nav_button">Новини</button>
+            </a>
+            <a href="servers.html">
+                <button class="nav_button">Сервера</button>
+            </a>
+            <a href="rules.html">
+                <button class="nav_button">Правила</button>
+            </a>
+            <a href="discord.html">
+                <button class="nav_button">Discord</button>
+            </a>
+        </div>
+
+        <div class="nav_login_buttons" id="l_sec">
+            <p style="padding: 5px 5px 5px 5px">Anonymous</p>
+            <a href="register.html">
+                <button class="nav_button" style="min-width: 150px;">Реєстрація</button>
+            </a>
+            <a href="login.html">
+                <button class="nav_button">Вхід</button>
+            </a>
+        </div>
+
+    </nav>
+    <div class="chat_box">
+        <div class="chat_container_scroll" id="chat_scroll_box">
+            <div class="message">
+            </div>
+        </div>
+        <div class="message_send_sec" style="margin-bottom: 5px;">
+            <input type="text" class="chat_message_input" id="message_text_input">
+            <button id="msg_button" class="default_button"
+                style="min-width: 150px; margin-right: 10px; margin-left: 10px;"
+                onclick="sendmessage()">Надіслати</button>
+        </div>
+    </div>
+
+    <main>
+        <div class="page_content">
+            <div id="servers_sec" class="page_content_section">
+                <span class="logo_title">Наші сервери</span>
+                <div class="servers_desc">
+                    <span class="servers_desc">На кожному із цих серверів ви можете вільно пограти. Деякі вимагають
+                        запуску зі
+                        сторони адміністрації, деякі працюють 24/7 (але часто такі приурочені до особ
+                        проходженням з
+                        модами)</span>
+                    <span class="servers_desc">На серверах діють прості правила на кшталт не гриферити, не заважати, але
+                        також
+                        адміністрація може заблокувати вас або вигнати з сервера на власний розсуд.</span>
+                    <span class="servers_desc">Сервера, які вимагають моди, будуть так і підписані. В основному, для
+                        серверів
+                        моди
+                        не
+                        потрібні. Також є загальні зборки для Vanilla проходження.</span>
+                </div>
+            </div>
+            <div id="servers_sec" class="page_content_section">
+                <span class="logo_title" style="color:green">Сервер VanillaCreative</span>
+                <div class="server_section">
+                    <span class="server_desc">Ванільний сервер у креативі, де можна втілити будь-які свої фантазії.
+                        Можна й
+                        виживати, але навіщо? На сервері стоїть стара карта зі своєю історією і цей сервер дуже дорогий
+                        адмінам.</span>
+                    <span style="color:darkred"> Версія: 1.19.4 (Vanilla)</span>
+                    <span class="server_ip" id="srv_ip" onclick="navigator.clipboard.writeText(this.textContent);
+                        showSiteMessage('Скопировано!');">GMRS_VanillaCreative.aternos.me:46267</span>
+                    <a href="https://1drv.ms/f/s!Ap_uCl04IQ0lj0Qhx_5ODirg-Sbp?e=QDNAcw" class="server_pack">Завантажити
+                        зборку
+                        (опціонально)</a>
+                </div>
+            </div>
+            <div id="servers_sec" class="page_content_section">
+                <span class="logo_title" style="color:skyblue">Сервер VorkutaRP</span>
+                <div class="server_section">
+                    <span class="server_desc">Ванільний сервер на якому скрізь панує вічна зима та ніч. Постійні
+                        рейди
+                        мобів, ніч та небезпека тільки тут. Чи зможете ви тут вижити?</span>
+                    <span style="color:darkred"> Версія: 1.19.4 (Vanilla)</span>
+                    <span class="server_ip" id="srv_ip" onclick="navigator.clipboard.writeText(this.textContent);
+                        showSiteMessage('Скопировано!');">GMRS_VorkutaRP.aternos.me:11879</span>
+                    <a href="https://1drv.ms/f/s!Ap_uCl04IQ0lj0Qhx_5ODirg-Sbp?e=QDNAcw" class="server_pack">Завантажити
+                        зборку
+                        (опціонально)</a>
+                </div>
+            </div>
+            <div id="servers_sec" class="page_content_section">
+                <span class="logo_title" style="color:darkviolet">Сервер Modded</span>
+                <div class="server_section">
+                    <span class="server_desc">Цей сервер запускається під час проходження з модифікаціями. На цей
+                        момент
+                        сервер працює, і на ньому можна грати.</span>
+                    <span style="color:darkred"> Версія: 1.19.4 (Modded)</span>
+                    <span class="server_ip" id="srv_ip" onclick="navigator.clipboard.writeText(this.textContent);
+                                                showSiteMessage('Скопировано!');">srv7.godlike.club:26012</span>
+                    <a href="https://1drv.ms/f/s!Ap_uCl04IQ0lxje2VNyNzZ0qnRuI?e=wcfYfc" class="server_pack">Завантажити
+                        зборку
+                        (обов'язково)</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="site_message" id="st_msg">
+        <p>NO MESSAGE</p>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <script src="./js/firebase.js"></script>
+    <script src="./js/cookie.js"></script>
+    <script src="./js/login_register.js"></script>
+    <script src="./js/chat.js"></script>
+    <script src="./js/index.js"></script>
+    <script src="./js/user_load.js" defer></script>
+
+</body>
+
+</html>

@@ -1,0 +1,8 @@
+/* ПРАВИЛА НАСТРОЙКА КОНТЕНТА */
+
+#rules_sec {
+    padding: 30px 15px 15px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

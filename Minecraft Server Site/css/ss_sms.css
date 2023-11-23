@@ -1,0 +1,21 @@
+.site_message {
+    z-index: 256;
+    display: none;
+    position: fixed;
+    bottom: 15px;
+    left: 25%;
+    align-self: center;
+    font-size: 14px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    padding-bottom: 7px;
+    background-color: rgb(29, 29, 29);
+    border: 3px solid rgb(193, 193, 193);
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px 5px rgb(0, 0, 0);
+    width: 50%;
+    height: 35px;
+    transition: .3s;
+}

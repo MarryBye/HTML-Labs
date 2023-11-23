@@ -1,0 +1,203 @@
+body {
+    
+    background: rgb(32, 34, 37) url(../img/thumb-1920-909912.png);
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+header {
+
+    /* background: url(../img/H0QkD.gif), url(../img/blur.png);
+    background-size: 100%; */
+
+    background: #c7b39b00 url(../img/blur.png);
+    background-size: 100%;
+
+    margin-top: 25px;
+    margin-left: 25%;
+
+    border: 3px solid rgb(32, 34, 37);
+    background-color: rgba(47, 49, 54, 0.897);
+    
+    line-height: 64px;
+    width: 50%;
+
+    border-radius: 8px;
+
+}
+
+footer {
+
+    margin-left: 25%;
+    
+    background: #c7b39b00 url(../img/blur.png);
+    background-size: 100%;
+
+    border: 3px solid rgb(32, 34, 37);
+    background-color: rgba(47, 49, 54, 0.897);
+    
+    line-height: 64px;
+    width: 50%;
+
+    position: static;
+    bottom: 25px;
+
+    border-radius: 8px;
+
+}
+
+.navigationPanel {
+
+    margin-left: 25%;
+
+    background: #c7b39b00 url(../img/blur.png);
+    background-size: 100%;
+
+    border: 3px solid rgb(32, 34, 37);
+    background-color: rgba(47, 49, 54, 0.897);
+    
+    line-height: 64px;
+    width: 50%;
+
+    position: sticky;
+    top: 0px;
+
+    overflow: hidden;
+
+    border-radius: 8px;
+
+}
+
+.section {
+
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 25%;
+
+    background: #c7b39b00 url(../img/blur.png);
+    background-size: 100%;
+
+    border: 3px solid rgb(32, 34, 37);
+    background-color: rgba(47, 49, 54, 0.897);
+    
+    line-height: 64px;
+    width: 50%;
+
+    border-radius: 8px;
+
+}
+
+.textSuperBig {
+    
+    font: bolder;
+    font-size: 64px;
+
+}
+
+.textBig {
+
+    font: bolder;
+    font-size: 32px;
+
+}
+
+.textSemiBig {
+
+    font: caption;
+    font-size: 24px;
+
+}
+
+.textNormal {
+
+    font: caption;
+    font-size: 18px;
+
+}
+
+.textSmall {
+
+    font: caption;
+    font-size: 14px;
+
+}
+
+.textColoredW {
+
+    color: rgb(200, 200, 200);
+
+}
+
+.textColoredP {
+
+    color: rgb(226, 49, 138);
+
+}
+
+.textCenterAlign {
+
+    text-align: center;
+
+}
+
+.textLeftAlign {
+
+    padding-left: 5px;
+    text-align: left;
+
+}
+
+.textRightAlign {
+
+    padding-right: 5px;
+    text-align: right;
+
+}
+
+.textFloatLeft {
+
+    padding-left: 5px;
+    float: right;
+
+}
+
+.textFloatRight {
+
+    padding-right: 5px;
+    float: right;
+
+}
+
+.textButtonBackground {
+
+    background-color: rgba(63, 72, 171, 0.897);
+    padding: 10px 25px;
+    text-decoration: none;
+    border-radius: 8px;
+
+    animation-name: coolButtonsAnimationReverse;
+    animation-duration: 0.2s;
+    animation-timing-function: linear;
+
+}
+
+.textButtonBackground:hover {
+
+    background-color: rgb(200, 200, 200);
+    color: black;
+
+    animation-name: coolButtonsAnimation;
+    animation-duration: 0.2s;
+    animation-timing-function: linear;
+
+}
+
+.textButtonBackground:active {
+
+    background: #c7b39b00 url(../img/blur.png);
+    background-size: 100%;
+    
+    background-color: rgba(63, 72, 171, 0.897);
+    color: rgb(200, 200, 200);
+
+}

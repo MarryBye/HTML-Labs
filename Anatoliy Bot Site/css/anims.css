@@ -1,0 +1,33 @@
+@keyframes coolButtonsAnimation {
+
+    0% {
+
+        background-color: rgba(63, 72, 171, 0.829);
+        color: rgb(200, 200, 200);
+
+    }
+    100% {
+
+        background-color: rgb(200, 200, 200);
+        color: black;
+
+    }
+
+}
+
+@keyframes coolButtonsAnimationReverse {
+
+    0% {
+
+        background-color: rgb(200, 200, 200);
+        color: black;
+
+    }
+    100% {
+
+        background-color: rgba(63, 72, 171, 0.829);
+        color: rgb(200, 200, 200);
+
+    }
+
+}

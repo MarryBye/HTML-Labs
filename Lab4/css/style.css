@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    font-family: 'Minecraft', sans-serif;
+    overflow: hidden;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    background-image: url("../img/dirtbg.png");
+    background-repeat: repeat;
+    background-size: 128px;
+}
+
+.content {
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../img/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.content h4 {
+    margin-top: 128px;
+    margin-bottom: 256px;
+    padding: 0px 18px 18px 18px;
+    background-color: rgba(6, 6, 6, 0.532);
+    background-size: auto;
+    color: rgb(255, 255, 255);
+    font-size: 64px;
+    transition: 0.18s;
+}
+
+.content button {
+    height: 64px;
+    width: 512px;
+    padding: 0px 0px 8px 0px;
+    border: none;
+    background-color: rgb(59, 133, 38);
+    color: rgb(255, 255, 255);
+    font-family: 'Minecraft', sans-serif;
+    font-size: 32px;
+    cursor: pointer;
+    transition: 0.18s;
+}
+
+.content button:hover {
+    background-color: rgb(12, 12, 12);
+    transition: 0.18s;
+}
+
+.content button:active {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+.button-block {
+    display: flex;
+    justify-content: flex-end;
+}
+
+h4 {
+    margin: 0;
+    user-select: none;
+}
+
+.formbox {
+    margin: 0px 48px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 32px
+}
+
+input {
+    margin: 8px 0px;
+    width: 200px;
+    font-size: 12px;
+    border: none;
+    outline: none;
+}
+
+a {
+    height: fit-content;
+    width: fit-content;
+    margin-top: 50px;
+    padding: 8px 64px 8px 64px;
+    border: none;
+    background-color: rgb(59, 133, 38);
+    color: rgb(255, 255, 255);
+    font-family: 'Minecraft', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.18s;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: rgb(12, 12, 12);
+    transition: 0.18s;
+}
+
+a:active {
+    background-color: rgb(255, 255, 255);
+    transition: 0.18s;
+    color: black;
+}
+
+h4::first-letter {
+    color: rgb(14, 125, 19);
+}

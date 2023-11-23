@@ -1,0 +1,98 @@
+body {
+    background: rgb(32, 34, 37) url(../img/bg.jpg);
+    background-size: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+aside {
+    float: right;
+    width: 20vw;
+    height: 100vh;
+    padding: 0px 24px;
+    border-left: 3px solid red;
+    overflow: auto;
+    color: red;
+}
+
+aside p {
+    color: red;
+    text-transform: uppercase;
+    transition: .3s;
+}
+
+aside p:hover {
+    color: white;
+    transition: .3s;
+}
+
+main {
+    display: flex;
+    height: 100vh;
+    overflow: auto;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: flex-start;
+}
+
+.article-block {
+    text-align: center;
+    margin: 16px;
+    color: red;
+    text-transform: uppercase;
+    transition: .3s;
+}
+
+.article-block:hover {
+    transform: scale(1.15);
+    color: white;
+    transition: .3s;
+}
+
+.article-block img {
+    width: 200px;
+    height: 200px;
+    border: 2px solid red;
+    transition: .3s;
+}
+
+.article-block img:hover {
+    transform: scale(1.15);
+    border: 2px solid rgb(255, 255, 255);
+    transition: .3s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* overflow */
+/* 
+visible - 
+hidden -
+scroll -
+auto - 
+*/
+
+/* float */
+/* 
+right - элемент зависает справа
+left - элемент зависает слева
+none - элемент не зависает(дефолт)
+inherit - наследуется от родительского элемента
+*/

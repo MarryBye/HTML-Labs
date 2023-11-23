@@ -1,0 +1,26 @@
+main {
+    display: flex;
+    justify-content: center;
+}
+
+p{
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    font-weight: bold;
+    margin: 0;
+}
+
+.clown {
+    text-align: center;
+    padding: 25px 25px 25px 25px;
+    border-color: brown;
+    border: 5px solid;
+    transition: .3s;
+}
+
+.clown:hover {
+    border-color: aqua;
+    transition: .3s;
+
+}

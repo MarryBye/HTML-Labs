@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Minecraft';
+    src: url('../fonts/minecraft_rus_regular.eot');
+    src: url('../fonts/minecraft_rus_regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/minecraft_rus_regular.woff2') format('woff2'),
+        url('../fonts/minecraft_rus_regular.woff') format('woff'),
+        url('../fonts/minecraft_rus_regular.ttf') format('truetype'),
+        url('../fonts/minecraft_rus_regular.svg#minecraft_rus_regular') format('svg');
+}

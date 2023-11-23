@@ -1,0 +1,127 @@
+/* НАСТРОЙКА ЧАТА */
+
+.chat_box {
+    z-index: 3;
+    background-color: rgb(29, 29, 29);
+    color: aliceblue;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    border-bottom: 3px solid rgb(193, 193, 193);
+}
+
+.chat_container_scroll {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.message {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    height: fit-content;
+    width: fit-content;
+    font-size: 12px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 12px;
+    animation: show_message 1s;
+}
+
+@keyframes show_message {
+    from {
+        transform: translate(-200%);
+        filter: blur(15px);
+    }
+
+    to {
+        transform: translate(0, 0);
+
+    }
+
+    95% {
+        filter: blur(0px);
+    }
+}
+
+.message button {
+    font-size: 12px;
+    color: rgba(135, 0, 0, 1);
+    border: none;
+    border-radius: 5px;
+    background-color: #00000000;
+    cursor: pointer;
+    animation-name: button_show;
+    animation-duration: .3s;
+    animation-timing-function: normal;
+    animation-direction: normal;
+    margin-right: 10px;
+    transition: .3s;
+}
+
+.message button:hover {
+    color: aliceblue;
+    transform: scale(1.2);
+    transition: .3s;
+}
+
+@keyframes button_show {
+    from {
+        transform: scale(0);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+
+.message_author {
+    display: flex;
+    color: bisque;
+    text-decoration: none;
+    cursor: pointer;
+    transition: .15s;
+}
+
+.message_author_self {
+    display: flex;
+    color: cornflowerblue;
+    text-decoration: none;
+    cursor: pointer;
+    transition: .15s;
+}
+
+.message_author:hover,
+.message_author_self:hover {
+    transition: .15s;
+    color: aliceblue;
+    font-size: 14px;
+}
+
+.message_text {
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: aliceblue;
+    width: 100%;
+}
+
+.message_send_sec {
+    display: flex;
+    flex-direction: row;
+}
+
+.chat_message_input {
+    width: 100%;
+    font-size: 12px;
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.365);
+    outline: none;
+}

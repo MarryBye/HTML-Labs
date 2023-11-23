@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/ss_login.css">
+    <link rel="stylesheet" href="css/ss_fonts.css">
+    <link rel="stylesheet" href="css/ss_global.css">
+    <link rel="stylesheet" href="css/ss_chat.css">
+    <link rel="stylesheet" href="css/ss_sms.css">
+    <title>GAMERS | Реєстрація</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="header_img"></div>
+        <div class="header_logo">
+            <span class="logo_title">Minecraft сервер GAMERS</span>
+            <span class="logo_desc">Найкращі відчуття тільки для друзів!</span>
+        </div>
+    </header>
+
+    <nav>
+
+        <div class="nav_buttons">
+            <a href="index.html">
+                <button class="nav_button">Головна</button>
+            </a>
+            <a href="news.html">
+                <button class="nav_button">Новини</button>
+            </a>
+            <a href="servers.html">
+                <button class="nav_button">Сервера</button>
+            </a>
+            <a href="rules.html">
+                <button class="nav_button">Правила</button>
+            </a>
+            <a href="discord.html">
+                <button class="nav_button">Discord</button>
+            </a>
+        </div>
+
+        <div class="nav_login_buttons" id="l_sec">
+            <p style="padding: 5px 5px 5px 5px">Anonymous</p>
+            <a href="register.html">
+                <button class="nav_button" style="min-width: 150px;">Реєстрація</button>
+            </a>
+            <a href="login.html">
+                <button class="nav_button">Вхід</button>
+            </a>
+        </div>
+
+    </nav>
+
+    <main>
+
+        <div class="page_content">
+            <div id="login_sec" class="page_content_section">
+                <div class="data_block">
+                    <p>Логін</p>
+                    <input type="text" id="r_nickname" class="login_input">
+                    <p>Пароль</p>
+                    <input type="text" id="r_password" class="login_input">
+                </div>
+                <button class="default_button" onclick="signup()">Зареєструватись</button>
+                <div class="another_method">
+                    <a href="login.html">
+                        <p style="margin-right: 10px;">Є аккаунт?</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="site_message" id="st_msg">
+        <p>NO MESSAGE</p>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <script src="./js/firebase.js"></script>
+    <script src="./js/cookie.js"></script>
+    <script src="./js/login_register.js"></script>
+    <script src="./js/chat.js"></script>
+    <script src="./js/index.js"></script>
+    <script src="./js/user_load.js" defer></script>
+
+</body>
+
+</html>

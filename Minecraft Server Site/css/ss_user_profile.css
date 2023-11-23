@@ -1,0 +1,24 @@
+/* ПРОФИЛИ НАСТРОЙКА КОНТЕНТА */
+
+#profile_sec {
+    padding: 30px 15px 15px 15px;
+}
+
+#profile_sec * {
+    align-self: center;
+    margin-bottom: 50px;
+}
+
+#profile_sec img {
+    width: 128px;
+    height: 128px;
+    border: 3px solid rgb(193, 193, 193);
+    border-radius: 15px;
+    transition: .3s;
+}
+
+#profile_sec img:hover {
+    transform: scale(1.25);
+    box-shadow: 0px 0px 5px 1px rgb(248, 249, 249);
+    transition: .3s;
+}

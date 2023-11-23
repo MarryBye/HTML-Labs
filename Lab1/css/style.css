@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    background-color: #1a1717;
+}
+
+header{
+    height: 50px;
+    line-height: 50px;
+    font-family: Quicksand;
+    font-size: 24px;
+    color: lawngreen;
+    text-align: center;
+    border-bottom: 1px solid lawngreen;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    color: lawngreen;
+    text-align: center;
+    font-family: Quicksand;
+    border-bottom: 1px solid lawngreen;
+}
+
+.skills {
+    color: lawngreen;
+}
+
+.projects {
+    color: red;
+}
+
+.education {
+    color: yellow;
+}
+
+.skills, .projects, .education{
+    font-family: Quicksand;
+    padding: 0px 50px;
+    margin: 100px 50px 300px 50px;
+    border: 3px solid;
+    text-align: center;
+}

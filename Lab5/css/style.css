@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 50px auto 100px;
+}
+
+header {
+    background-image: url("../img/back.png");
+    background-color: rgba(105, 105, 105, 0.85);
+    border-bottom: 1px solid black;
+    display: grid;
+    grid-template-columns: 64px auto auto;
+    grid-template-rows: auto;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+
+button {
+    width: 48px;
+    height: 32px;
+    border: none;
+    cursor: pointer;
+    transition: .18s;
+    color: black;
+    background-color: rgb(255, 255, 255);
+}
+
+button:hover {
+    transition: .18s;
+    color: white;
+    background-color: rgb(61, 61, 61);
+}
+
+button:active {
+    color: black;
+    background-color: rgb(255, 255, 255);
+}
+
+input {
+    padding: 0px 16px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    width: 90vw;
+    height: 32px;
+    font-size: 32px;
+    border: none;
+    outline: none;
+}
+
+main {
+    min-height: 100vh;
+    background-image: url("../img/back.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto auto;
+}
+
+footer {
+    width: 100%;
+    background-image: url("../img/back.png");
+    border-top: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.container a {
+    width: 360px;
+    height: 128px;
+    margin: 4px 4px 4px 4px;
+    padding: 32px 32px 32px 32px;
+    border: 1px solid black;
+    border-color: black;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    text-decoration: none;
+    background-color: rgb(255, 255, 255, 0.85);
+    color: rgb(0, 0, 0);
+    overflow: hidden;
+    transition: .3s;
+}
+
+.container a:hover {
+    border-color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.85);
+    color: rgb(255, 255, 255);
+    transition: .3s;
+}
+
+.container a:active {
+    border-color: black;
+    background-color: rgb(255, 255, 255, 0.85);
+    color: rgb(0, 0, 0);
+    transition: .3s;
+}
+
+.container a img {
+    width: 128px;
+    height: 128px;
+}
+
+.logo img {
+    width: 32px;
+    height: 32px;
+
+}
+
+div {
+    padding: 0px 16px;
+}
+
+div img {
+    width: 240px;
+    height: 240px;
+}
+
+div p {
+    padding: 0px 16px;
+}

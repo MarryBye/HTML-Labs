@@ -1,0 +1,10 @@
+/* DISCORD НАСТРОЙКА КОНТЕНТА */
+
+#discord_sec {
+    padding: 30px 15px 15px 15px;
+}
+
+#discord_sec iframe {
+    align-self: center;
+    justify-self: center;
+}

@@ -1,0 +1,103 @@
+/* line 13, ../../Documents/Projects/HTML/Lab8/sass/style.scss */
+body {
+  margin: 0;
+  background-color: #211414;
+  color: wheat;
+}
+
+/* line 19, ../../Documents/Projects/HTML/Lab8/sass/style.scss */
+.nav_button {
+  width: 125px;
+  height: 25px;
+  border: none;
+  border-radius: 10px;
+  background-color: #302020;
+  cursor: pointer;
+  transition: 0.2s;
+  font-size: 18px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-top: 15px;
+  color: wheat;
+}
+
+/* line 33, ../../Documents/Projects/HTML/Lab8/sass/style.scss */
+.nav_button:hover {
+  background-color: #604040;
+  box-shadow: 0px 0px 5px 1px #f8f9f9;
+  transition: 0.2s;
+  color: black;
+}
+
+/* line 40, ../../Documents/Projects/HTML/Lab8/sass/style.scss */
+.nav_button:active {
+  background-color: white;
+}
+
+/* line 44, ../../Documents/Projects/HTML/Lab8/sass/style.scss */
+main {
+  height: 1080px;
+  display: flex;
+  flex-direction: row;
+}
+
+/* line 50, ../../Documents/Projects/HTML/Lab8/sass/style.scss */
+.left_side {
+  width: 220px;
+  height: fit-content;
+  flex-direction: column;
+  margin-left: 15px;
+  padding-top: 20px;
+  border-radius: 10px;
+}
+
+/* line 59, ../../Documents/Projects/HTML/Lab8/sass/style.scss */
+.nav_buttons {
+  height: fit-content;
+  background-color: rgba(10, 10, 10, 0.539);
+  align-content: center;
+  justify-content: center;
+  padding: 15px 15px 15px 15px;
+  margin-bottom: 15px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+/* line 70, ../../Documents/Projects/HTML/Lab8/sass/style.scss */
+.nav_users_top,
+.nav_developers {
+  height: fit-content;
+  background-color: rgba(10, 10, 10, 0.539);
+  align-content: center;
+  justify-content: center;
+  padding: 15px 15px 15px 15px;
+  margin-bottom: 15px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+/* line 82, ../../Documents/Projects/HTML/Lab8/sass/style.scss */
+.right_side {
+  width: 100%;
+  height: fit-content;
+  background-color: rgba(10, 10, 10, 0.539);
+  flex-direction: column;
+  margin-top: 20px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  margin-right: 15px;
+  border-radius: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* line 96, ../../Documents/Projects/HTML/Lab8/sass/style.scss */
+footer {
+  background-color: rgba(10, 10, 10, 0.539);
+  width: 100%;
+  border-top: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=style.css.map */

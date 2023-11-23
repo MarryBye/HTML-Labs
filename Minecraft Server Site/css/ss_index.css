@@ -1,0 +1,29 @@
+/* ГЛАВНАЯ НАСТРОЙКА КОНТЕНТА */
+
+#main_sec {
+    padding: 30px 15px 15px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main_sec .login_dics {
+    color: antiquewhite;
+}
+
+#main_sec .login_dics {
+    cursor: pointer;
+    border-radius: 15px;
+    padding: 5px 5px 5px 5px;
+    transition: .3s;
+}
+
+#main_sec .login_dics:hover {
+    color: aliceblue;
+    background-color: #ffffff;
+    transition: .3s;
+}
+
+#main_sec .tag_disc {
+    color: aliceblue;
+}

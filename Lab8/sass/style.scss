@@ -1,0 +1,103 @@
+$transition_delay: .2s;
+$elements: rgba(10, 10, 10, 0.539);
+$primary: #211414;
+
+$button_color: rgb(48, 32, 32);
+$button_hover_color: rgb(96, 64, 64);
+
+$navbar_margins: 15px;
+$navbar_radius: 10px;
+
+$text_color: rgb(245, 222, 179);
+
+body {
+    margin: 0;
+    background-color: $primary;
+    color: $text_color;
+}
+
+.nav_button {
+    width: 125px;
+    height: 25px;
+    border: none;
+    border-radius: $navbar_radius;
+    background-color: $button_color;
+    cursor: pointer;
+    transition: $transition_delay;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: $navbar_margins;
+    color: $text_color;
+}
+
+.nav_button:hover {
+    background-color: $button_hover_color;
+    box-shadow: 0px 0px 5px 1px rgb(248, 249, 249);
+    transition: $transition_delay;
+    color: black;
+}
+
+.nav_button:active {
+    background-color: white;
+}
+
+main {
+    height: 1080px;
+    display: flex;
+    flex-direction: row;
+}
+
+.left_side {
+    width: 220px;
+    height: fit-content;
+    flex-direction: column;
+    margin-left: $navbar_margins;
+    padding-top: 20px;
+    border-radius: $navbar_radius;
+}
+
+.nav_buttons {
+    height: fit-content;
+    background-color: $elements;
+    align-content: center;
+    justify-content: center;
+    padding: $navbar_margins $navbar_margins $navbar_margins $navbar_margins;
+    margin-bottom: $navbar_margins;
+    text-align: center;
+    border-radius: $navbar_radius;
+}
+
+.nav_users_top,
+.nav_developers {
+    height: fit-content;
+    background-color: $elements;
+    align-content: center;
+    justify-content: center;
+    padding: $navbar_margins $navbar_margins $navbar_margins $navbar_margins;
+    margin-bottom: $navbar_margins;
+    text-align: center;
+    border-radius: $navbar_radius;
+}
+
+.right_side {
+    width: 100%;
+    height: fit-content;
+    background-color: $elements;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: $navbar_margins;
+    margin-bottom: $navbar_margins;
+    margin-right: $navbar_margins;
+    border-radius: $navbar_radius;
+    padding-left: $navbar_margins;
+    padding-right: $navbar_margins;
+}
+
+footer {
+    background-color: $elements;
+    width: 100%;
+    border-top: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

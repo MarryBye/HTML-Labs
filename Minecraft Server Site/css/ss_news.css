@@ -1,0 +1,32 @@
+/* НОВОСТИ НАСТРОЙКА КОНТЕНТА */
+
+#nws {
+    display: flex;
+    flex-direction: column;
+}
+
+#news_sec {
+    padding: 30px 15px 15px 15px;
+}
+
+#news_sec * {
+    display: flex;
+    margin: 30px 15px 15px 15px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#news_sec button {
+    width: 50%;
+    display: flex;
+    align-self: center;
+    justify-self: center;
+}
+
+#news_scroll_bar {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-items: center;
+}
